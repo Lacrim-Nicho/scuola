@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>receiver</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <h1>Contatti</h1>
+    <ul id="contatti"></ul>
+
+    <script type="text/javascript">
+
+        const Json = localStorage.getItem("contatti");
+        const contatti = JSON.parse(Json);
+        
+        const listaDeiContatti = document.getElementById("contatti");
+
+        for (let i = 0; i < contatti.length; i++) {
+            const li = document.createElement("li");
+            li.textContent = `${contatti[i].nome}: ${contatti[i].telefono}`;
+            listaDeiContatti.appendChild(li);
+        }
+
+        
+
+    </script>
+    
+</body>
+</html>

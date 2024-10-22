@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sender</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <button onclick="inviaDati()">Invia Dati JSON</button>
+
+    <script type="text/javascript">
+
+        const contatti = [
+            { nome: "Giuseppe Malara", telefono: "32454345434" },
+            { nome: "Valerio Staffelli", telefono: "3435643643" },
+            { nome: "Monica Velez", telefono: "3454242423" }
+        ];
+
+        function inviaDati() {
+            const JsonC = JSON.stringify(contatti);
+            localStorage.setItem("contatti", JsonC);
+            window.location.href = "receiver3.html";
+        }
+
+    </script>
+    
+</body>
+</html>
