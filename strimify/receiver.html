@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>receiver</title>
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Età</th>
+            </tr>
+        </thead>
+        <tbody id="tabella">
+        </tbody>
+    </table>
+
+    <script type="text/javascript">
+
+        const datiJSON = localStorage.getItem('dati');
+        const dati = JSON.parse(datiJSON); 
+            
+        const tabella = `<tr>
+                        <th>${dati.nome}</th>
+                        <th>${dati.cognome}</th>
+                        <th>${dati.eta}</th>
+                    </tr>`;
+                     
+        document.getElementById('tabella').innerHTML = tabella;
+        
+
+    </script>
+    
+</body>
+</html>

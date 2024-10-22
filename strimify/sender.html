@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>sender</title>
+
+
+
+</head>
+<body>
+
+    <h2>Invia Dati</h2>
+    <form id="form">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" required id="nome">
+
+        <label for="cognome">Cognome:</label>
+        <input type="text" name="cognome" required id="cognome">
+
+        <label for="eta">Età:</label>
+        <input type="text" name="eta" id="eta" required>
+    </form>
+
+    <button type="submit" value="Invia" onclick="Invia()">Invia
+
+
+    <script type="text/javascript">
+
+        function Invia() {
+            const n = document.getElementById('nome').value;
+            const c = document.getElementById('cognome').value;
+            const e = document.getElementById('eta').value;
+
+            const p = {
+                nome: n,
+                cognome: c,
+                eta: e
+            }
+
+            localStorage.setItem('dati', JSON.stringify(p));
+            window.location.href = "receiver.html";                  
+                        
+        }
+
+
+    </script>
+    
+</body>
+</html>
