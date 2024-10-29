@@ -1,0 +1,82 @@
+[
+    {
+      "nome": "Marco",
+      "cognome": "Rossi",
+      "eta": 32,
+      "indirizzo": "Via Roma, 123",
+      "citta": "Milano",
+      "telefono": ["+39 333 1234567","+39 349 1234567"]
+    },
+    {
+      "nome": "Giulia",
+      "cognome": "Verdi",
+      "eta": 28,
+      "indirizzo": "Corso Vittorio Emanuele II, 45",
+      "citta": "Roma",
+      "telefono": ["+39 320 9876543 ", "+39 347 1234567 ", "+39 329 9876543"]
+    },
+    {
+      "nome": "Andrea",
+      "cognome": "Bianchi",
+      "eta": 35,
+      "indirizzo": "Via Garibaldi, 15",
+      "citta": "Napoli",
+      "telefono": "+39 329 9876543"
+    },
+    {
+      "nome": "Sofia",
+      "cognome": "Neri",
+      "eta": 25,
+      "indirizzo": "Piazza del Duomo, 10",
+      "citta": "Firenze",
+      "telefono": "+39 366 9876543"
+    },
+    {
+      "nome": "Luca",
+      "cognome": "Russo",
+      "eta": 38,
+      "indirizzo": "Via Dante Alighieri, 8",
+      "citta": "Bologna",
+      "telefono": "+39 392 1234567"
+    },
+    {
+      "nome": "Sara",
+      "cognome": "Ferrari",
+      "eta": 30,
+      "indirizzo": "Viale della Liberazione, 15",
+      "citta": "Torino",
+      "telefono": "+39 380 9876543"
+    },
+    {
+      "nome": "Davide",
+      "cognome": "Esposito",
+      "eta": 32,
+      "indirizzo": "Via Nazionale, 20",
+      "citta": "Bari",
+      "telefono": "+39 349 1234567"
+    },
+    {
+      "nome": "Chiara",
+      "cognome": "Gallo",
+      "eta": 27,
+      "indirizzo": "Corso Umberto I, 18",
+      "citta": "Palermo",
+      "telefono": "+39 329 9876543"
+    },
+    {
+      "nome": "Matteo",
+      "cognome": "Rizzo",
+      "eta": 39,
+      "indirizzo": "Via Garibaldi, 12",
+      "citta": "Catania",
+      "telefono": "+39 348 1234567"
+    },
+    {
+      "nome": "Alice",
+      "cognome": "Bruno",
+      "eta": 29,
+      "indirizzo": "Piazza Maggiore, 5",
+      "citta": "Venezia",
+      "telefono": "+39 368 9876543"
+    }
+]

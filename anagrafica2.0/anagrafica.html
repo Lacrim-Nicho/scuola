@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sender anagrafica 2.0</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <table id="tabella">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Età</th>
+                <th>Indirizzo</th>
+                <th>Città</th>
+                <th>Telefono</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    
+    <script>
+
+        /*visto che nell'esercizio precedente ho usato il backtick per concatenare le stringhe, il codice è identico*/
+
+
+        const xml = new XMLHttpRequest();
+        xml.open('GET', 'anagrafica.json');
+        xml.onload = function() {
+            if (xml.status === 200) {
+                const dati = JSON.parse(xml.responseText);
+                const tb = document.getElementById('tabella').tBodies[0];
+                for (let i = 0; i < dati.length; i++) {
+                    const pers = dati[i];
+                    const riga = document.createElement('tr');
+                    riga.innerHTML = `<td>${pers.nome}</td><td>${pers.cognome}</td><td>${pers.eta}</td><td>${pers.indirizzo}</td><td>${pers.citta}</td><td>${pers.telefono}</td>`;
+                    tb.appendChild(riga);
+                }
+            } else {
+                alert('Si è presentato un errore nel caricare i dati dal file Json.');
+            }
+        }
+        xml.send();
+           
+    </script>
+    
+</body>
+</html>
