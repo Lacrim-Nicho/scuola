@@ -1,4 +1,9 @@
 const valore = localStorage.getItem('valore');
+
+if(valore == undefined){
+    alert('Non è presente un valore nel local storage, probabilmente avrai caricato questa pagina prima di quella precedente!');
+}
+
 const xml = new XMLHttpRequest();
 xml.open('GET', './files_json/file_json_ricevi/ricevi.json');
 xml.onload = function() {
