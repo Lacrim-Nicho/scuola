@@ -11,7 +11,7 @@
       "cognome": "La Gru",
       "eta": 25,
       "telefono": ["+39 320 9876543 ", "+39 347 1234567 ", "+39 329 9876543"],
-      "immagine": "/immagini/simba.jpg"
+      "immagine": "https://lacrim-nicho.github.io/scuola/anagrafica3.0/immagini/simba.jpg"
 
 
     },
@@ -20,7 +20,7 @@
       "cognome": "Malara",
       "eta": 49,
       "telefono": "+39 329 9876543",
-      "immagine": "/immagini/carabiniere.jpeg"
+      "immagine": "https://lacrim-nicho.github.io/scuola/anagrafica3.0/immagini/carabiniere.jpeg"
 
     }
 ]
