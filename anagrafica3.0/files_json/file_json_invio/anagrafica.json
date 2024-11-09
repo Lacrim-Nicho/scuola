@@ -4,7 +4,7 @@
       "cognome": "Bonaventura",
       "eta": 32,
       "telefono": ["+39 333 1234567","+39 349 1234567"],
-      "immagine": "/immagini/jack.jpg"
+      "immagine": "./immagini/jack.jpg"
     },
     {
       "nome": "Simba",
