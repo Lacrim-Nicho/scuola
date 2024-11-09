@@ -4,7 +4,7 @@
       "cognome": "Bonaventura",
       "eta": 32,
       "telefono": ["+39 333 1234567","+39 349 1234567"],
-      "immagine": "/anagrafica3.0/immagini/jack.jpg"
+      "immagine": "https://lacrim-nicho.github.io/scuola/anagrafica3.0/immagini/jack.jpg"
     },
     {
       "nome": "Simba",
