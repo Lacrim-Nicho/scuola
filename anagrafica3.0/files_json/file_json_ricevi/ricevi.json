@@ -6,7 +6,7 @@
     "indirizzo": "Via Roma, 123",
     "citta": "Milano",
     "telefono": ["+39 333 1234567","+39 349 1234567"],
-    "immagine": "../immagini/jack.jpg",
+    "immagine": "https://lacrim-nicho.github.io/scuola/anagrafica3.0/immagini/jack.jpg",
     "professione": "calciatore"
   },
   {
@@ -16,7 +16,7 @@
     "indirizzo": "Via Buco tuo padre se non hai rispetto, 45",
     "citta": "Lecco",
     "telefono": ["+39 320 9876543 ", "+39 347 1234567 ", "+39 329 9876543"],
-    "immagine": "/immagini/simba.jpg",
+    "immagine": "https://lacrim-nicho.github.io/scuola/anagrafica3.0/immagini/simba.jpg",
     "professione": "ciapponatore e medico"
 
 
@@ -28,7 +28,7 @@
     "indirizzo": "Via Garibaldi, 15",
     "citta": "Napoli",
     "telefono": "+39 329 9876543",
-    "immagine": "/immagini/carabiniere.jpeg",
+    "immagine": "https://lacrim-nicho.github.io/scuola/anagrafica3.0/immagini/carabiniere.jpeg",
     "professione": "carabiniere"
 
 
