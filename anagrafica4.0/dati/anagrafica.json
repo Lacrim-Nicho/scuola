@@ -1,0 +1,27 @@
+[
+    {
+      "nome": "Andrea",
+      "cognome": "Arrigoni",
+      "eta": 25,
+      "telefono": ["+39 333 1234567","+39 349 1234567"], 
+      "immagine": "/immagini/shiva.jpg"
+
+     },
+    {
+      "nome": "Mattia",
+      "cognome": "Barbieri",
+      "eta": 22,
+      "telefono": ["+39 320 9876543 ", "+39 347 1234567 ", "+39 329 9876543"],
+      "immagine": "/immagini/rondo.jpg"
+
+
+    },
+    {
+      "nome": "Antonio",
+      "cognome": "Hueber",
+      "eta": 25,
+      "telefono": "+39 329 9876543",
+      "immagine": "/immagini/tony.jpg"
+
+    }
+]
