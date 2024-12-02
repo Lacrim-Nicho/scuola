@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 98vh;
+    background: linear-gradient(to bottom, #e6ffff, #9ac0fa); 
+  }
+  
+  #tabella {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    animation: animazione 1s ease-in-out;
+    overflow: hidden; 
+    border-radius: 10px;
+  }
+  
+  #tabella th, #tabella td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    transition: background-color 0.3s ease;
+  }
+  
+  #tabella th {
+    background-color: #7326d8; 
+    color: white;
+    font-weight: bold;
+    font-size: 18px; 
+    position: relative; 
+  }
+  
+  #tabella th::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(40, 167, 69, 0.5), rgba(40, 167, 69, 0)); 
+    z-index: -1; 
+  }
+  
+  #tabella td {
+    font-size: 16px; 
+  }
+  
+  #tabella tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    object-fit: cover; 
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); 
+  }
+  
+  @keyframes animazione {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  #tabella {
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
