@@ -8,6 +8,9 @@ if(valore == undefined){
                                               //in caso di errore, prima di caricare la pagina principale
                                               //vengano eseguite azioni lato server (ovviamente è solo un esempio,
                                               //in questo contesto è totalmente inutile)
+                                              //tecnicamente parlando, inoltre, bisognerebbe anche flushare il contenuto
+                                              //del local storage ogni volta 
+                                            
                                             
     }, 1000);
 }
