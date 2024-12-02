@@ -1,0 +1,46 @@
+<cv>
+  <informazioni_personali>
+    <nome>Mattia</nome>
+    <cognome>Barbieri</cognome>
+    <eta>22</eta>
+    <residenza>San Siro, Milano</residenza>
+    <immagine>./immagini/rondo.jpg</immagine>
+  </informazioni_personali>
+  <esperienze_lavoro>
+    <esperienza>
+      <azienda>Mc Donald's</azienda>
+      <ruolo>Dipendente</ruolo>
+      <periodo>2019 - 2020</periodo>
+      <descrizione>Un anno fa lavoravo al Mc, maglietta bianca, in tasca dei racks. Seppelisco un opps se fotte con me</descrizione>
+    </esperienza>
+    <esperienza>
+      <azienda>Trenches Records</azienda>
+      <ruolo>Rapper</ruolo>
+      <periodo>2021 - Presente</periodo>
+      <descrizione>CEO della label Trenches Records.</descrizione>
+    </esperienza>
+    <esperienza>
+      <azienda>Nessuna</azienda>
+      <ruolo>Freelancer con P. IVA</ruolo>
+      <periodo>2023 - Presente</periodo>
+      <descrizione>Collaboro coi miei migliori amici, Simba la Rue e Baby Gang, per mantenere un ospedale in Nigeria.</descrizione>
+    </esperienza>
+  </esperienze_lavoro>
+  <formazione_scolastica>
+    <formazione>
+      <istituto>Scuola Statale Arturo V</istituto>
+      <titolo>Diploma di scuola secondaria di primo grado</titolo>
+      <anno>2015</anno>
+    </formazione>
+  </formazione_scolastica>
+  <lingue>
+  <lingua>
+        <nome>Italiano</nome>
+      <livello>Madre lingua</livello>
+    </lingua>
+    <lingua>
+      <nome>Inglese</nome>
+      <livello>C2</livello>
+    </lingua>
+  </lingue>
+</cv>

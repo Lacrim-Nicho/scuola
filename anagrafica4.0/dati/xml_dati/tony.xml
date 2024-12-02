@@ -1,0 +1,48 @@
+<cv>
+  <informazioni_personali>
+    <nome>Antonio</nome>
+    <cognome>Hueber</cognome>
+    <eta>25</eta>
+    <residenza>Padova, Islanda</residenza>
+    <immagine>./immagini/tony.jpg</immagine>
+  </informazioni_personali>
+  <esperienze_lavoro>
+    <esperienza>
+      <azienda>Coca and Co</azienda>
+      <ruolo>Pusher</ruolo>
+      <periodo>2015 - 2019</periodo>
+      <descrizione>O sei bravo coi Bitcoin o vendi al parchetto: io non ero bravo coi Bitcoin.</descrizione>
+    </esperienza>
+    <esperienza>
+      <azienda>Sony Music Italy</azienda>
+      <ruolo>Rapper</ruolo>
+      <periodo>2020 - Presente</periodo>
+      <descrizione>Ho firmato un contratto per Sony e ora guadagno come un calciatore.</descrizione>
+    </esperienza>
+  </esperienze_lavoro>
+  <formazione_scolastica>
+    <formazione>
+      <istituto>Istituto Alberghiero Goat, Pd</istituto>
+      <titolo>Diploma di scuola secondaria di secondo grado</titolo>
+      <anno>2017</anno>
+    </formazione>
+  </formazione_scolastica>
+  <lingue>
+    <lingua>
+        <nome>Italiano</nome>
+      <livello>Madre lingua</livello>
+    </lingua>
+    <lingua>
+      <nome>Inglese</nome>
+      <livello>B1</livello>
+    </lingua>
+    <lingua>
+      <nome>Francese</nome>
+      <livello>B2</livello>
+    </lingua>
+    <lingua>
+      <nome>Polacco</nome>
+      <livello>C1</livello>
+    </lingua>
+  </lingue>
+</cv>

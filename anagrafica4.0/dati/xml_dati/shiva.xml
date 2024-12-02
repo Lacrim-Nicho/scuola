@@ -1,0 +1,49 @@
+<cv>
+  <informazioni_personali>
+    <nome>Andrea</nome>
+    <cognome>Arrigoni</cognome>
+    <eta>25</eta>
+    <residenza>Corsico, Milano</residenza>
+    <immagine>./immagini/shiva.jpg</immagine>
+  </informazioni_personali>
+  <esperienze_lavoro>
+    <esperienza>
+      <azienda>Shooters TrapStar</azienda>
+      <ruolo>Shooter</ruolo>
+      <periodo>2018 - 2020</periodo>
+      <descrizione>Ho sparato alle gambe di un opps. Avete preso più shots degli ubriachi</descrizione>
+    </esperienza>
+    <esperienza>
+      <azienda>Santana Gang</azienda>
+      <ruolo>Rapper</ruolo>
+      <periodo>2020 - Presente</periodo>
+      <descrizione>CEO della label Santana Gang.</descrizione>
+    </esperienza>
+  </esperienze_lavoro>
+  <formazione_scolastica>
+    <formazione>
+      <istituto>Università di Milano</istituto>
+      <titolo>Laurea in Musica</titolo>
+      <anno>2017</anno>
+    </formazione>
+    <formazione>
+      <istituto>Scuola Statale Galileo Galilei</istituto>
+      <titolo>Diploma di scuola secondaria di secondo grado</titolo>
+      <anno>2013</anno>
+    </formazione>
+  </formazione_scolastica>
+  <lingue>
+  <lingua>
+    <nome>Italiano</nome>
+      <livello>Madre lingua</livello>
+    </lingua>
+    <lingua>
+      <nome>Inglese</nome>
+      <livello>B2</livello>
+    </lingua>
+    <lingua>
+      <nome>Napoletano</nome>
+      <livello>Madre lingua</livello>
+    </lingua>
+  </lingue>
+</cv>
