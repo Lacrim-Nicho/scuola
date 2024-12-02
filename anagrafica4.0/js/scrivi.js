@@ -100,9 +100,9 @@ function carica() {
     if(valore==0){
         xhttp.open("GET", "/scuola/anagrafica4.0/dati/xml_dati/shiva.xml", true); } //volevo fare 2 funzioni separate ma non andava
     else if(valore==1)                                          //e non riuscivo a trovare l'errore
-        xhttp.open("GET", "/dati/xml_dati/rondo.xml", true);
+        xhttp.open("GET", "/scuola/anagrafica4.0/dati/xml_dati/rondo.xml", true);
     else if(valore==2)
-        xhttp.open("GET", "/dati/xml_dati/tony.xml", true);
+        xhttp.open("GET", "/scuola/anagrafica4.0/dati/xml_dati/tony.xml", true);
 
     xhttp.send();
   }
