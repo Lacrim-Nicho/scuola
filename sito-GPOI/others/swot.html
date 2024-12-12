@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swot Analysis</title>
+    <link rel="stylesheet" href="/css/swot.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quadrato">
+            <h2>Punti di forza</h2>
+            <ul>
+                <li>Qualità del prodotto</li>
+                <li>Varietà di design</li>
+                <li>Flessibilità e personalizzazione</li>
+                <li>Branding e riconoscibilità</li>
+                <li>Esperienza nel settore</li>
+            </ul>
+        </div>
+        <div class="quadrato">
+            <h2>Punti di debolezza</h2>
+            <ul>
+                <li>Dipendenza dalla pelle</li>
+                <li>Alti costi di produzione</li>
+                <li>Visibilità limitata del brand</li>
+                <li>Difficoltà nella scalabilità</li>
+            </ul>
+        </div>
+        <div class="quadrato">
+            <h2>Opportunità</h2>
+            <ul>
+                <li>Espansione del mercato online</li>
+                <li>Trend di sostenibilità</li>
+                <li>Collaborazioni con influencer e brand affermati</li>
+                <li>Espansione in nuovi mercati</li>
+                <li>Personalizzazione per il segmento corporate</li>
+            </ul>
+        </div>
+        <div class="quadrato">
+            <h2>Minacce</h2>
+            <p>Una possibile minaccia per la nostra azienda, potrebbe essere Bellroy.</p>
+            <p>Bellroy è un marchio che si è distinto nel settore degli accessori di pelle e le sue caratteristiche potrebbero rappresentare una concorrenza diretta per il nostro brand.</p>
+        </div>
+    </div>
+
+    <script>
+        function simulaHoverAlternato() {
+        const quadrati = document.querySelectorAll('.quadrato');
+
+        let indiceCorrente = 0;
+        setInterval(() => {
+            quadrati.forEach(quadrato => quadrato.classList.remove('hover'));
+
+            quadrati[indiceCorrente].classList.add('hover');
+
+            indiceCorrente = (indiceCorrente + 1) % quadrati.length;
+        }, 2000); 
+        }
+        const style = document.createElement('style');
+        style.textContent = `
+        .quadrato.hover {
+            transform: scale(1.11); 
+        }
+        `;
+        document.head.appendChild(style);
+        simulaHoverAlternato();
+    </script>
+</body>
+</html>
