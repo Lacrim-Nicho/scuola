@@ -168,7 +168,7 @@ h1:hover {
     align-items: center;
     min-height: 200px;
     text-align: center;
-    background: linear-gradient(to bottom right, #fceabb, #f8b500); 
+    background: linear-gradient(to bottom right, #fceabb, #f8b500);
     padding: 30px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     color: #333;
@@ -187,13 +187,13 @@ h1:hover {
     font-size: 1.1em;
     font-weight: 600;
     margin-bottom: 15px;
-    line-height: 1.6; 
+    line-height: 1.6;
 }
 
 #post.error a {
     color: #3498db;
     text-decoration: none;
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
 }
 
 #post.error a:hover {
@@ -204,9 +204,9 @@ h1:hover {
 #post.error::before {
     content: "!";
     display: block;
-    font-size: 5em; 
+    font-size: 5em;
     font-weight: bold;
-    color: red; 
+    color: red;
     margin-bottom: 15px;
     animation: pulse 1.5s infinite;
 }
@@ -215,17 +215,6 @@ h1:hover {
     0% { transform: scale(1); opacity: 1; }
     50% { transform: scale(1.2); opacity: 0.7; }
     100% { transform: scale(1); opacity: 1; }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 0.95;
-        transform: translateY(0);
-    }
 }
 
 .post:nth-child(2n) {
@@ -244,23 +233,23 @@ h1 {
     h1 {
         font-size: 2.5em;
     }
+
+    #post {
+        padding: 20px;
+    }
 }
 
 @media (max-width: 480px) {
     h1 {
         font-size: 2em;
     }
+
+    #post {
+        padding: 10px;
+        grid-template-columns: 1fr;
+    }
 }
 
-#post.error {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 200px;
-}
-
-#post.error p {
-    color: #e74c3c;
-    font-size: 1.2em;
-    font-weight: bold;
+.post {
+    margin-bottom: 20px;
 }
